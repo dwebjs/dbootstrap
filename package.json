@@ -1,0 +1,24 @@
+{
+  "name": "@dwebjs/dbootstrap",
+  "description": "Launch DHT-ready RPC bootstrap servers via a CLI.",
+  "version": "1.0.0",
+  "contributors": [
+    "Jared Rice Sr. <jared@dpeeps.com>",
+    "Peeps Labs <labs@dpeeps.com>"
+  ],
+  "bugs": {
+    "url": "https://github.com/dwebjs/dbootstrap/issues/"
+  },
+  "dependencies": {
+    "dht-rpc": "^4.0.0",
+    "minimist": "^1.2.0"
+  },
+  "main": "index.js",
+  "bin": {
+    "dbootstrap": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url" :"git+https://github.com/dwebjs/dbootstrap.git"
+  }
+}
