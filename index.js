@@ -12,5 +12,5 @@ var node = dht ({
 })
 
 node.listen(Number(argv.port), function () {
-  console.log('dbootstrap node listening on &d', node.address().port)
+  console.log('dbootstrap node listening on %d', node.address().port)
 })
